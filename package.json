@@ -1,7 +1,7 @@
 {
-  "name": "angularjs-seed",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "name": "angular-lorem-image",
+  "description": "Generate images from lorem images according to simple parameters",
+  "repository": "https://github.com/matthieu-D/angular-lorem-image",
   "devDependencies": {
     "phantomjs" : "~1.9",
     "karma" : "~0.10",
