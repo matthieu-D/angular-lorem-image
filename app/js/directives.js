@@ -9,13 +9,16 @@ angular.module('myApp.directives',['ngSanitize','myApp.services']).
 	  text:'@',
 	  count:'@',
 	  width:'@',
-	  height:'@'
+	  height:'@',
+      category:'@'
 	},
 templateUrl:'partials/lorem-image.html',
 controller: function($scope) {
-$scope.images = imageBuilder.build($scope.text,
-		   $scope.count,
-		   $scope.height)
+$scope.images = imageBuilder.build($scope.width,
+                                   $scope.height,
+                                   $scope.category,
+                                   $scope.count,
+                                   $scope.text)
 }
 }
 });
