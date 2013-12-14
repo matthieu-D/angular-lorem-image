@@ -1,12 +1,16 @@
-This directive provide lorem image generation for your website.
-Options:
-  width:
-  height:
-  count: number of images
-  text: watermark 
-  category: specific to lorem image (ex:sports,animals)
-  
 # angular-lorem-image 
+
+This directive provides lorem image generation for your website by using the great lorempixel service to generate images.
+Options:
+<ul>
+  <li>width: in px</li>
+  <li>height:in px</li>
+  <li>count: number of images</li>
+  <li>text: vertical text on the left border of your image </li>
+  <li>category: specific to lorem images (ex:sports,animals)</li>
+</ul>
+
+PR accepted so Have Fun!
 
 ## Directory Layout
 
@@ -43,8 +47,3 @@ Options:
         directivessSpec.js      --> specs for directives
         filtersSpec.js          --> specs for filters
         servicesSpec.js         --> specs for services
-
-## Contact
-
-For more information on AngularJS please check out http://angularjs.org/
-angular-lorem-image
