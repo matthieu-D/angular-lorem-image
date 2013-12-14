@@ -3,13 +3,19 @@
 This directive provides lorem image generation for your website by using the great lorempixel service to generate images.
 Options:
 <ul>
-  <li>width: in px</li>
-  <li>height:in px</li>
+  <li>width: in px(default value at 300 px)</li>
+  <li>height:in px(default value at 200 px)</li>
   <li>count: number of images</li>
   <li>text: vertical text on the left border of your image </li>
   <li>category: specific to lorem images (ex:sports,animals)</li>
 </ul>
+Really simple to use :
 
+<div class="highlight highlight-html">
+
+```html
+<lorem width='200' height='200'  count='3' text='titi' category='sports'></lorem>
+```
 PR accepted so Have Fun!
 
 ## Directory Layout
