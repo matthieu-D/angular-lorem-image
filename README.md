@@ -1,3 +1,11 @@
+This directive provide lorem image generation for your website.
+Options:
+  width:
+  height:
+  count: number of images
+  text: watermark 
+  category: specific to lorem image (ex:sports,animals)
+  
 # angular-lorem-image 
 
 ## Directory Layout
