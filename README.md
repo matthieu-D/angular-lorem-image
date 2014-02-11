@@ -16,6 +16,8 @@ Really simple to use :
 ```html
 <lorem width='200' height='200'  count='3' text='titi' category='sports'></lorem>
 ```
+JSFiddle example : http://jsfiddle.net/xMuB9/1/ 
+<br />
 PR accepted so Have Fun!
 
 ## Directory Layout
