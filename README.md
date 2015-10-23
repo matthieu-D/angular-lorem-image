@@ -1,5 +1,8 @@
 # angular-lorem-image 
 
+```html
+bower install angular-lorem-image
+```
 This directive provides lorem image generation for your website by using the great lorempixel service to generate images.
 Options:
 <ul>
