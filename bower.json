@@ -1,0 +1,23 @@
+{
+  "name": "angular-lorem-image",
+  "version": "0.0.1",
+  "homepage": "https://github.com/matthieu-D/angular-lorem-image",
+  "description": "This directive provides lorem image generation for your website by using the great lorempixel service to generate images",
+  "main": "app/js/directives.js",
+  "keywords": [
+    "angular",
+    "lorem",
+    "image"
+  ],
+  "authors": [
+    "Matthieu Drula"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
